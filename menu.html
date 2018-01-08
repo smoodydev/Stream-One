@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Gastra Super Menu
+        </title>
+    <style>
+
+        p{
+            font-family: "Lucinda Grande";
+        }
+        .veg:before{
+           content: url(img/veggie.png)" ";
+           
+        }
+        .meat:before{
+           content: url(img/meat.png)" ";
+        }
+        .main:after{
+           content: url(img/main.png)" ";
+        }
+        .wrapper{
+            height: 400px;
+            width: 400px;
+            background-color: linen;
+            border: solid green 3px;
+            
+        }
+        
+        #calculatedTotal{
+            width: 150px;
+            background-color: green;
+            border: solid #000 2px;
+            color: #fff;
+        }
+        #makeAReservation{
+            width: 150px;
+            background-color: green;
+            border: solid #000 2px;
+            color: #fff;
+        }
+        
+    </style>
+    
+    
+    
+</head>
+
+<body>
+    <div class="wrapper">
+        <p class="veg">Rocket Drizzle</p>
+        <p class="veg">All about the Beets</p>
+        <p class="veg">Great bowl of Broccoli</p>
+        <p class="veg main">Lentil Masala with Spinach</p>
+        <p class="meat main">Peri Per double Chicken</p>
+        
+        <button id="calculatedTotal">How Much?</button>
+        <br/>
+        <button id="makeAReservation">Make a Reservation</button>
+    </div>
+    
+    
+</body>
+</html>
